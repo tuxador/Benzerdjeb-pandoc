@@ -1,0 +1,53 @@
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage{xltxtra}
+\usepackage{xunicode}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{polyglossia}
+\setdefaultlanguage{french}
+\setmainfont[Mapping=tex-text]{Linux Libertine O}
+\setsansfont{Linux Biolinum O}
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+
+% définir \tightlist pour la compatibilité avec pandoc 1.14
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+\pagestyle{fancy}
+\usepackage{bidi}
+\author{Dr Yahyaoui mohamed Kaddour}
+\title{Coronarographie }
+\begin{document}
+	\lhead{\includegraphics[width=0.75cm,keepaspectratio]{logoEH1}}
+	\rhead{\small{\textsf{Coronarographie}}}
+ \textcolor{MidnightBlue}{Établissement hospitalier \hfill \textarabic{الـمـؤسـســة الإسـتـشـفــائـيـة}}
+ 
+ \textcolor{MidnightBlue}{Dr.Benzerdjeb \hfill \textarabic{الـدكـتــور بـن زرجــب}}
+ 
+ 
+ 
+\textcolor{MidnightBlue}{ Ain Témouchent \hfill \textarabic{عـيـن تـمــوشـنــت}}
+ 
+\textcolor{MidnightBlue}{Service de Cardiologie \hfill \textarabic{مصلحة أمراض القلب}}
+ 
+ \textcolor{MidnightBlue}{Téléphone et fax:  043 61 35 09 \hfill \textarabic{الهاتف و الفاكس}}
+
+\begin{center} \huge{ Coronarographie}
+	
+
+\end{center}
+
+
+$body$
+\fancyfoot[R]{\today}
+\end{document}
+
+
